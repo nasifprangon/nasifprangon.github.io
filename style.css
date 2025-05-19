@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+header p {
+  color: #666;
+  font-size: 1.2em;
+}
+
+main h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+section {
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #999;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Social sidebar */
+.social-sidebar {
+  position: fixed;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.social-sidebar a img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-sidebar a:hover img {
+  transform: scale(1.2);
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 48px; /* adjust to your preference */
+  height: 48px;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+
+.publication {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.publication h2 {
+  margin-top: 0;
+}
+
+.publication p {
+  margin: 5px 0;
+}
+
