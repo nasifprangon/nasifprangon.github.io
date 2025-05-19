@@ -118,3 +118,18 @@ nav a:hover {
   margin-top: 5px;
   padding-left: 20px;
 }
+
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.download-btn:hover {
+  background-color: #005fa3;
+}
