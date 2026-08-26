@@ -1185,8 +1185,9 @@ body > main > h2 {
 @media (max-width: 460px) {
 
   .site-logo {
-    font-size: 1rem;
-  }
+     font-size: 0.95rem;
+     white-space: nowrap;
+   }
 
 
   .main-nav {
@@ -1834,4 +1835,49 @@ button:focus-visible {
     margin-bottom: 8px;
   }
 
+}
+
+/* Fix Publications page header spacing */
+
+.publication-page-header {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.publication-page-header .section-heading {
+  margin-bottom: 0;
+}
+
+.publications-list {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.site-logo {
+  font-size: 1.05rem;
+  font-weight: 700;
+
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.publications-list .content-container,
+.publication-page-header .content-container {
+  max-width: 1040px;
+}
+
+/* Fix Experience page header spacing */
+
+.experience-page-header {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.experience-page-header .section-heading {
+  margin-bottom: 0;
+}
+
+.experience-section {
+  padding-top: 25px;
+  padding-bottom: 90px;
 }
