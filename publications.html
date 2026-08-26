@@ -1,75 +1,527 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Publications</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Publications | Nasif Fahmid Prangon</title>
+
+  <meta
+    name="description"
+    content="Publications by Nasif Fahmid Prangon in distributed learning, edge intelligence, knowledge distillation, cloud networking, and communication-efficient AI."
+  >
+
   <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-  <header>
-    <h1>Publications</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="publications.html">Publications</a>
-      <a href="experience.html">Experience</a>
-      <a href="cv.html">CV</a>
-    </nav>
+
+  <!-- =====================================================
+       NAVIGATION
+  ====================================================== -->
+
+  <header class="site-header">
+
+    <div class="nav-container">
+
+      <a class="site-logo" href="index.html">
+        Nasif Prangon
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+
+        <a href="index.html">
+          Home
+        </a>
+
+        <a class="active" href="publications.html">
+          Publications
+        </a>
+
+        <a href="experience.html">
+          Experience
+        </a>
+
+        <a href="cv.html">
+          CV
+        </a>
+
+      </nav>
+
+    </div>
+
   </header>
+
+
 
   <main>
 
-    
-    <section class="publication">
-      <h2>ToCo-Split: Topology-Constrained Communication for Efficient Split Learning in Edge Intelligence</h2>
-      <p><strong>Authors:</strong> Nasif Fahmid Prangon and Jie Wu</p>
-      <p><strong>Conference:</strong> <em>23rd IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS 2026)</em></p>
-      <p><strong>Abstract:</strong> We propose ToCo-Split, a topology-aware split learning framework that jointly considers cut-layer selection, distribution-aware client clustering, and structured client-side communication. The framework uses topology-constrained gradient mixing to improve learning efficiency under heterogeneous and non-IID edge environments while balancing communication and computation costs.</p>
-      <p><a href="pdf/MASS_26_Topology_Aware_Distributed_Split_Learning_for_Communication_Efficient_Edge_Intelligence.pdf" target="_blank">[PDF]</a></p>
-    </section>
-    
-    <section class="publication">
-      <h2>FedBaS: Bandwidth-Aware Feature Selection Strategies for Efficient Federated Distillation</h2>
-      <p><strong>Authors:</strong> Nasif Fahmid Prangon and Jie Wu</p>
-      <p><strong>Conference:</strong> <em>2026 IEEE 104th Vehicular Technology Conference (VTC2026-Fall)</em> </p>
-      <p><strong>Abstract:</strong> FedBaS is a bandwidth-aware feature selection framework for federated distillation that reduces communication overhead while preserving model performance. The framework compares FedAvg with logit- and feature-based distillation and introduces variance-, weight-, and mutual information-based feature selection strategies for efficient knowledge sharing in bandwidth-limited edge and wireless networks.</p>
-      <p><a href="pdf/FedBaS_VTC.pdf" target="_blank">[PDF]</a></p>
+    <!-- =====================================================
+         PAGE INTRO
+    ====================================================== -->
+
+    <section class="section publication-page-header">
+
+      <div class="content-container">
+
+        <div class="section-heading">
+
+          <p class="section-label">
+            Research
+          </p>
+
+          <h1 class="page-title">
+            Publications
+          </h1>
+
+          <p class="section-intro">
+            My research spans distributed and edge intelligence,
+            knowledge distillation, communication-efficient learning,
+            cloud and edge computing, and resource-aware networked
+            systems.
+          </p>
+
+        </div>
+
+      </div>
+
     </section>
 
-    
-    <section class="publication">
-      <h2>Beyond the Teacher–Student Paradigm: The Role of Network Structure in Knowledge Distillation</h2>
-      <p><strong>Authors:</strong> Nasif Fahmid Prangon and Jie Wu</p>
-      <p><strong>Conference:</strong><em>International Conference on Computing, Networking and Communications (ICNC)</em>, 2026</p>
-      <p><strong>Abstract:</strong> In this work, we go beyond the classic one-teacher–one-student setup and study how network topology itself shapes knowledge propagation in multi-student distillation. By analyzing different structures (e.g., chains, rings, hypercubes), we show that who learns from whom can be just as important as what is being learned—especially in edge and distributed learning environments.</p>
-      <p>
-          <a href="https://ieeexplore.ieee.org/abstract/document/11416878" target="_blank">[Publication Page]</a>
-            |
-          <a href="pdf/Beyond_the_Teacher_Student_Paradigm__The_Role_of_Network_Structure_in_Knowledge_Distillation__ICNC_26_.pdf" target="_blank">[PDF]</a>
-      </p>    
-    </section>
-    
-    <section class="publication">
-      <h2>Resource Optimized Task Offloading in Delay Sensitive Edge Networks</h2>
-      <p><strong>Authors:</strong> Nasif Fahmid Prangon, Abdalaziz Sawwan, and Jie Wu</p>
-      <p><strong>Conference:</strong> <em> International Conference on Computing, Networking and Communications (ICNC)</em>, 2025</p>
-      <p><strong>Abstract:</strong> We propose a resource-aware task allocation strategy that maximizes processing efficiency in energy-constrained edge networks by jointly considering processing capacity, communication delay, and node energy budget.</p>
-      <p>
-        <a href="https://ieeexplore.ieee.org/abstract/document/10993937" target="_blank">[Publication Page]</a>
-          |
-        <a href="pdf/Resource_Optimized_Task_Offloading_in_Delay_Sensitive_Edge_Networks.pdf" target="_blank">[PDF]</a></p>
-    </section>
-    
-    <section class="publication">
-      <h2>AI and Computing Horizons: Cloud and Edge in the Modern Era</h2>
-      <p><strong>Authors:</strong> Nasif Fahmid Prangon and Jie Wu</p>
-      <p><strong>Published in:</strong><em> Journal of Sensor and Actuator Networks (JSAN)</em>, 2024</p>
-      <p><strong>Abstract:</strong> This paper presents a comprehensive overview of emerging technologies in cloud and edge computing, including intelligent networking and distributed AI techniques that enhance scalability, reliability, and real-time performance in modern systems.</p>
-      <p>
-        <a href="https://www.mdpi.com/2224-2708/13/4/44" target="_blank">[Publication Page]</a>
-          |
-        <a href="pdf/jsan-13-00044-v2.pdf" target="_blank">[PDF]</a></p>
-    </section>
 
+
+    <!-- =====================================================
+         2026
+    ====================================================== -->
+
+    <section class="publications-list">
+
+      <div class="content-container">
+
+        <div class="publication-year">
+          <span>2026</span>
+        </div>
+
+
+        <!-- ToCo-Split -->
+
+        <article class="publication">
+
+          <div class="publication-meta">
+            IEEE MASS 2026
+          </div>
+
+          <h2>
+            ToCo-Split: Topology-Constrained Communication for
+            Efficient Split Learning in Edge Intelligence
+          </h2>
+
+          <p class="publication-authors">
+            Nasif Fahmid Prangon and Jie Wu
+          </p>
+
+          <p class="publication-venue">
+            <em>
+              23rd IEEE International Conference on Mobile Ad-Hoc
+              and Smart Systems (MASS 2026)
+            </em>
+          </p>
+
+
+          <details class="publication-abstract">
+
+            <summary>
+              Abstract
+            </summary>
+
+            <p>
+              We propose ToCo-Split, a topology-aware split learning
+              framework that jointly considers cut-layer selection,
+              distribution-aware client clustering, and structured
+              client-side communication. The framework uses
+              topology-constrained gradient mixing to improve learning
+              efficiency under heterogeneous and non-IID edge
+              environments while balancing communication and
+              computation costs.
+            </p>
+
+          </details>
+
+
+          <div class="publication-links">
+
+            <a
+              href="pdf/MASS_26_Topology_Aware_Distributed_Split_Learning_for_Communication_Efficient_Edge_Intelligence.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PDF
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- FedBaS -->
+
+        <article class="publication">
+
+          <div class="publication-meta">
+            IEEE VTC-Fall 2026
+          </div>
+
+          <h2>
+            FedBaS: Bandwidth-Aware Feature Selection Strategies
+            for Efficient Federated Distillation
+          </h2>
+
+          <p class="publication-authors">
+            Nasif Fahmid Prangon and Jie Wu
+          </p>
+
+          <p class="publication-venue">
+            <em>
+              2026 IEEE 104th Vehicular Technology Conference
+              (VTC2026-Fall)
+            </em>
+          </p>
+
+
+          <details class="publication-abstract">
+
+            <summary>
+              Abstract
+            </summary>
+
+            <p>
+              FedBaS is a bandwidth-aware feature selection framework
+              for federated distillation that reduces communication
+              overhead while preserving model performance. The
+              framework compares FedAvg with logit- and feature-based
+              distillation and introduces variance-, weight-, and
+              mutual information-based feature selection strategies
+              for efficient knowledge sharing in bandwidth-limited
+              edge and wireless networks.
+            </p>
+
+          </details>
+
+
+          <div class="publication-links">
+
+            <a
+              href="pdf/FedBaS_VTC.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PDF
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- ICNC 2026 -->
+
+        <article class="publication">
+
+          <div class="publication-meta">
+            IEEE ICNC 2026
+          </div>
+
+          <h2>
+            Beyond the Teacher–Student Paradigm:
+            The Role of Network Structure in Knowledge Distillation
+          </h2>
+
+          <p class="publication-authors">
+            Nasif Fahmid Prangon and Jie Wu
+          </p>
+
+          <p class="publication-venue">
+            <em>
+              International Conference on Computing,
+              Networking and Communications (ICNC), 2026
+            </em>
+          </p>
+
+
+          <details class="publication-abstract">
+
+            <summary>
+              Abstract
+            </summary>
+
+            <p>
+              In this work, we go beyond the classic
+              one-teacher–one-student setup and study how network
+              topology itself shapes knowledge propagation in
+              multi-student distillation. By analyzing different
+              structures such as chains, rings, and hypercubes,
+              we show that who learns from whom can be just as
+              important as what is being learned, especially in
+              edge and distributed learning environments.
+            </p>
+
+          </details>
+
+
+          <div class="publication-links">
+
+            <a
+              href="https://ieeexplore.ieee.org/abstract/document/11416878"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Publication Page
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+
+            <a
+              href="pdf/Beyond_the_Teacher_Student_Paradigm__The_Role_of_Network_Structure_in_Knowledge_Distillation__ICNC_26_.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PDF
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             2025
+        ================================================== -->
+
+        <div class="publication-year">
+          <span>2025</span>
+        </div>
+
+
+        <article class="publication">
+
+          <div class="publication-meta">
+            IEEE ICNC 2025
+          </div>
+
+          <h2>
+            Resource Optimized Task Offloading in
+            Delay Sensitive Edge Networks
+          </h2>
+
+          <p class="publication-authors">
+            Nasif Fahmid Prangon, Abdalaziz Sawwan, and Jie Wu
+          </p>
+
+          <p class="publication-venue">
+            <em>
+              International Conference on Computing,
+              Networking and Communications (ICNC), 2025
+            </em>
+          </p>
+
+
+          <details class="publication-abstract">
+
+            <summary>
+              Abstract
+            </summary>
+
+            <p>
+              We propose a resource-aware task allocation strategy
+              that maximizes processing efficiency in
+              energy-constrained edge networks by jointly considering
+              processing capacity, communication delay, and node
+              energy budget.
+            </p>
+
+          </details>
+
+
+          <div class="publication-links">
+
+            <a
+              href="https://ieeexplore.ieee.org/abstract/document/10993937"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Publication Page
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+
+            <a
+              href="pdf/Resource_Optimized_Task_Offloading_in_Delay_Sensitive_Edge_Networks.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PDF
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- =================================================
+             2024
+        ================================================== -->
+
+        <div class="publication-year">
+          <span>2024</span>
+        </div>
+
+
+        <article class="publication">
+
+          <div class="publication-meta">
+            JSAN 2024
+          </div>
+
+          <h2>
+            AI and Computing Horizons:
+            Cloud and Edge in the Modern Era
+          </h2>
+
+          <p class="publication-authors">
+            Nasif Fahmid Prangon and Jie Wu
+          </p>
+
+          <p class="publication-venue">
+            <em>
+              Journal of Sensor and Actuator Networks (JSAN), 2024
+            </em>
+          </p>
+
+
+          <details class="publication-abstract">
+
+            <summary>
+              Abstract
+            </summary>
+
+            <p>
+              This paper presents a comprehensive overview of
+              emerging technologies in cloud and edge computing,
+              including intelligent networking and distributed AI
+              techniques that enhance scalability, reliability,
+              and real-time performance in modern systems.
+            </p>
+
+          </details>
+
+
+          <div class="publication-links">
+
+            <a
+              href="https://www.mdpi.com/2224-2708/13/4/44"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Publication Page
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+
+            <a
+              href="pdf/jsan-13-00044-v2.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PDF
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
 
   </main>
+
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <div class="footer-container">
+
+      <div>
+
+        <strong>
+          Nasif Fahmid Prangon
+        </strong>
+
+        <p>
+          PhD Researcher · Temple University
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <a
+          href="https://scholar.google.com/citations?user=GxYQbGIAAAAJ&hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Google Scholar
+        </a>
+
+        <a
+          href="https://github.com/nasifprangon"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://linkedin.com/in/nasif-fahmid"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+
+        <a href="mailto:nasifprangon@temple.edu">
+          Email
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <p>
+        &copy; 2026 Nasif Fahmid Prangon
+      </p>
+
+    </div>
+
+  </footer>
+
+
 </body>
+
 </html>
