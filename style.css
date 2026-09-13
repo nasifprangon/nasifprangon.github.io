@@ -597,6 +597,10 @@ h3 {
   padding-bottom: 100px;
 }
 
+  .publication-link-sep {
+    margin: 0 0.5rem;
+    opacity: 0.35;
+  }
 
 .work-callout {
   padding: 48px;
