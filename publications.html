@@ -36,11 +36,15 @@
     gap: 1.25rem;
   }
   .pub-index-year {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.5rem 0.9rem;
-  }
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem 0.9rem;
+}
+.pub-index-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.9rem;
+}
   .pub-index-year-label {
     font-weight: 600;
     opacity: 0.6;
@@ -126,12 +130,14 @@
     <p class="pub-index-title">Browse by conference</p>
     <div class="pub-index-groups">
 
-      <div class="pub-index-year">
-        <span class="pub-index-year-label">2026</span>
-        <a class="pub-index-link" href="#mass-2026">IEEE MASS 2026</a>
-        <a class="pub-index-link" href="#vtc-fall-2026">IEEE VTC-Fall 2026</a>
-        <a class="pub-index-link" href="#icnc-2026">IEEE ICNC 2026</a>
-      </div>
+<div class="pub-index-year">
+  <span class="pub-index-year-label">2026</span>
+  <div class="pub-index-pills">
+    <a class="pub-index-link" href="#mass-2026">IEEE MASS 2026</a>
+    <a class="pub-index-link" href="#vtc-fall-2026">IEEE VTC-Fall 2026</a>
+    <a class="pub-index-link" href="#icnc-2026">IEEE ICNC 2026</a>
+  </div>
+</div>
 
       <div class="pub-index-year">
         <span class="pub-index-year-label">2025</span>
