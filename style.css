@@ -1905,3 +1905,7 @@ button:focus-visible {
   }
 
 }
+
+.temporarily-hidden {
+  display: none;
+}
